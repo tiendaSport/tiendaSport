@@ -1,0 +1,64 @@
+#contenedor_carga{
+    background-color: var(--background-color);
+    height: 100%;
+    width: 100%;
+
+    position: fixed;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    transition: all 1s ease;
+    z-index: 110;
+}
+#text{
+    color: var(--font-color);
+    font-weight: 600;
+
+    height: 90px;
+    width: 90px;
+
+    position: absolute;
+    top: 206px;
+    left: -6px;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+#carga{
+    border : 12px solid #d83b77;
+    border-top-color: #40b9f1;
+    height: 90px;
+    width: 90px;
+    border-radius: 100%;
+  
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+
+  
+    -webkit-animation: girar 1.5s linear infinite;
+    -o-animation: girar 1.5s linear infinite;
+    animation: girar 1.5s linear infinite;
+}
+#load-icon{
+
+    height: 70px;
+    width: 70px;
+  
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+
+    background: none;
+    background-size: cover;
+}
+  
+@keyframes girar {
+    from { transform: rotate(0deg);}
+    to { transform: rotate(360deg);}
+}

@@ -1,0 +1,54 @@
+
+.product{
+    padding: 10px;
+    color: var(--font-color);
+}
+.product img{
+    width: 90%;
+    border-radius: 8px;
+}
+.product h2{
+    color: var(--green-color);
+}
+.product p{
+    margin-top: 8px;
+}
+.product-talle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 14px;
+}
+.product-talle select{
+    padding: 10px 20px;
+    border-radius: 4px;
+}
+
+/* ---------------------------- RESPONSIVE ---------------------------- */
+
+@media screen and (min-width: 560px){
+
+    .product img{
+        width: 70%;
+        border-radius: 8px;
+    }
+
+}
+
+@media screen and (min-width: 844px){
+    .product a{
+        display: grid;
+        grid-template-columns: auto 60%;
+
+    }
+    form button{
+        margin-left: 150px;
+    }
+
+
+}
+
+body{
+    overflow-y: scroll !important;
+}

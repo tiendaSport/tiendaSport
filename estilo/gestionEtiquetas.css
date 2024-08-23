@@ -1,0 +1,80 @@
+.titulo_etiqueta{
+    color: var(--blue-color);
+    border-bottom: 2px solid var(--blue-color);
+    padding-bottom: 10px;
+}
+button.normal{
+    font-size: 16px;
+    margin-left: 10px;
+    background-color: var(--blue-color);
+    color: white;
+    border: none;
+    padding: 7px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+button:hover {
+    background-color: #0056b3;
+}
+
+table {
+    max-width: 400px;
+    border-collapse: collapse;
+    margin: 40px 0 ;
+}
+section.tablas-etiquetas{
+    margin: 20px 0 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 10px;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid var(--border-color);
+    text-align: left;
+}
+
+th {
+    background-color: var(--blue-color);
+    color: white;
+}
+
+td button.delete {
+    background-color: #dc3545;
+    font-size: 16px;
+    margin-left: 10px;
+    color: white;
+    border: none;
+    padding: 7px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+td button.delete:hover {
+    background-color: #c82333;
+}
+
+
+.etiqueta-content {
+    background-color: var(--background-color);
+    margin: 1% auto;
+    padding: 20px;
+    border: 1px solid var(--border-color);
+    width: 80%;
+    max-width: 300px;
+}
+section.etiquetas{
+    margin: 20px 0 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+.etiqueta-form input{
+    margin: 15px 0;
+    outline: none;
+    border-radius: 6px;
+    padding: 3px 10px;
+    border: 1.5px solid var(--border-color);
+}

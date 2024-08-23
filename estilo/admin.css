@@ -1,0 +1,36 @@
+/* Estilos para el Panel de Administración */
+#admin-panel {
+    padding: 20px;
+    background-color: #f8f9fa; /* Color de fondo claro */
+    border-radius: 5px; /* Bordes redondeados */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+#admin-panel h2 {
+    color: #343a40; /* Color del encabezado */
+    margin-bottom: 20px; /* Espaciado inferior */
+}
+
+#admin-panel h3 {
+    color: #495057; /* Color de los subtítulos */
+    margin-top: 15px; /* Espaciado superior */
+}
+
+#admin-panel p {
+    color: #6c757d; /* Color del texto */
+}
+
+#admin-panel button {
+    margin: 5px; /* Espaciado entre botones */
+    padding: 10px 15px; /* Espaciado interno */
+    background-color: #007bff; /* Color de fondo del botón */
+    color: white; /* Color del texto del botón */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor al pasar el mouse */
+    transition: background-color 0.3s; /* Transición suave */
+}
+
+#admin-panel button:hover {
+    background-color: #0056b3; /* Color de fondo al pasar el mouse */
+}

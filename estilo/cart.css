@@ -1,0 +1,210 @@
+
+h1{
+    font-size: 1.6rem;
+}
+h2{
+    color: var(--green-color);
+}
+
+.cart-myproduct{
+
+    border-bottom: var(--border-color) 1px solid;
+
+    padding: 20px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+.cart-myproduct:first-child{
+    border-top: var(--border-color) 1px solid;
+}
+
+.cart-buttons{
+    padding: 8px;
+    display: flex;
+
+    position: fixed;
+    bottom: 46px;
+    width: 100%;
+    background-color: var(--background-color);
+    justify-content: center;
+    gap: 16px;
+}
+.cart-buttons a{
+    margin-bottom: 6px;
+}
+
+.cart-buttons a:last-child{
+    margin-top: 0px;
+    background-color: var(--blue-color);
+}
+
+select{
+    padding: 8px 16px;
+    border-radius: 4px;
+}
+
+.borrar-del-carrito{
+    background-color: var(--red-color);
+    padding: 12px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+    text-decoration: none;
+
+    border-radius: 6px;
+}
+
+/* ---------------------------- RESPONSIVE ---------------------------- */
+
+@media screen and (min-width: 560px){
+    .cart-buttons{
+        padding: 8px;
+        display: flex;
+    
+        position: fixed;
+        bottom: 48px;
+        width: 100%;
+        background-color: var(--background-color);
+        justify-content: center;
+        gap: 16px;
+    }
+    .cart-buttons a{
+        margin-bottom: 6px;
+    }
+
+    .cart-myproduct img{ 
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+}
+
+@media screen and (min-width: 844px){
+    .cart-myproduct{
+
+        padding: 8px;
+    
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+
+        position: relative;
+    }
+
+    .cart-myproduct img{ 
+        width: 100px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    
+    .borrar-del-carrito{
+        background-color: var(--red-color);
+        padding: 10px 60px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        color: white;
+        text-decoration: none;
+
+        border-radius: 6px;
+    }
+
+    .cart-descripcion{
+        max-width: 250px;
+        min-width: 250px;
+
+        max-height: 70px;
+        min-height: 70px;
+        overflow: hidden;
+
+        position: relative;
+    }
+
+    .cart-descripcion span{
+        text-overflow: ellipsis;
+        overflow: hidden;
+        min-width: 0;
+        display: block;
+        max-lines: 3;
+    }
+}
+
+@media screen and (min-width: 1280px){
+
+}
+
+
+/* ------ CONTADOR ------- */
+input[type="number"] {
+    -webkit-appearance: textfield;
+    -moz-appearance: textfield;
+    appearance: textfield;
+
+    color: var(--font-color);
+    background-color: var(--background-color);
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    
+}
+
+.number-input {
+    border: 2px solid var(--border-color);
+    display: inline-flex;
+}
+
+.number-input,
+  .number-input * {
+    box-sizing: border-box;
+}
+
+.number-input button {
+    outline:none;
+    -webkit-appearance: none;
+    background-color: transparent;
+    border: none;
+    align-items: center;
+    justify-content: center;
+    width: 2rem;
+    height: 2rem;
+    cursor: pointer;
+    margin: 0;
+    position: relative;
+    color: var(--font-color);
+}
+
+.number-input button:after {
+    display: inline-block;
+    position: absolute;
+    font-family: "Font Awesome 5 Free"; 
+    font-weight: 900;
+    content: '\f077';
+    transform: translate(-50%, -50%) rotate(180deg);
+}
+.number-input button.plus:after {
+    transform: translate(-50%, -50%) rotate(0deg);
+}
+
+.number-input input[type=number] {
+    font-family: sans-serif;
+    max-width: 4rem;
+    padding: .2rem;
+    border: solid var(--border-color);
+    border-width: 0 2px;
+    font-size: 1rem;
+    height: 2rem;
+    font-weight: bold;
+    text-align: center;
+}

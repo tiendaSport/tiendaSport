@@ -1,0 +1,33 @@
+main .container-menu {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    
+}
+
+.action-grid {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(grid-auto-flow, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.action-card {
+    display: flex;
+    background-color: var(--background-color);
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    justify-content: center;
+    text-align: center;
+}
+
+.action-card h2 a{
+    color: var(--font-color);
+    text-decoration: none;
+}
+
+.action-card h2 a:hover {
+    text-decoration: underline;
+}

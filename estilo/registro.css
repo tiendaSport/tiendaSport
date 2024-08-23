@@ -1,0 +1,66 @@
+body{
+    overflow:auto;
+}
+.icon{
+    height: 70px;
+    width: auto;
+    margin-top: 10px;
+}
+h1{
+    font-family: "Plus Jakarta Sans", sans-serif;
+    margin: 0;
+    color: var(--blue-color);
+}
+.form-regis{
+    width: 400px;
+    height: 500px;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #0280c7;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+}
+.texto{
+    font-family: "Plus Jakarta Sans", sans-serif;
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+.submit{
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 16px;
+    background-color: #0280c7;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.entrada{
+    padding: 10px;
+    border: 1px solid #a6a6a6;
+    border-radius: 20px;
+    width: 300px;
+    height: 35px;
+}
+.entrada:focus{
+    color: #0280c7;
+    outline: none;
+    border: 2px solid #0280c7;
+}
+.contenedor{
+    width: 100%;
+    height: 100dvh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+@media screen and (max-width: 500px){
+    .contenedor{
+        scale: .7;
+    }
+    
+}
