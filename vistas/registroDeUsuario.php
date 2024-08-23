@@ -3,7 +3,7 @@
     <div class="contenedor">
     <form autocomplete="off" action="./logica/signin.php" method="POST" class="FormularioAjax form-regis">
             <img src="./imgs/page_icon.png" class="icon">
-            <h1>Tienda Sport</h1>
+            <h1 class="titulo_registro">Tienda Sport</h1>
             <div class="form-rest"></div>
                 <input type="text" class="entrada" name="usuario_nombre" placeholder="Nombre" required>
 
