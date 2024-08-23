@@ -6,7 +6,7 @@ body{
     width: auto;
     margin-top: 10px;
 }
-h1{
+.titulo_registro{
     font-family: "Plus Jakarta Sans", sans-serif;
     margin: 0;
     color: var(--blue-color);
@@ -19,9 +19,9 @@ h1{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    border: 2px solid #0280c7;
+    border: 2px solid var(--blue-color);
     border-radius: 20px;
-    background-color: rgb(255, 255, 255);
+    background-color: var(--background-color);
 }
 .texto{
     font-family: "Plus Jakarta Sans", sans-serif;
@@ -31,7 +31,7 @@ h1{
 .submit{
     font-family: "Plus Jakarta Sans", sans-serif;
     font-size: 16px;
-    background-color: #0280c7;
+    background-color: var(--blue-color);
     color: white;
     border: none;
     padding: 10px 20px;
@@ -39,16 +39,17 @@ h1{
     cursor: pointer;
 }
 .entrada{
+    background-color: var(--background-color);
     padding: 10px;
-    border: 1px solid #a6a6a6;
+    border: 1px solid var(--border-color);
     border-radius: 20px;
     width: 300px;
     height: 35px;
 }
 .entrada:focus{
-    color: #0280c7;
+    color: var(--blue-color);
     outline: none;
-    border: 2px solid #0280c7;
+    border: 2px solid var(--blue-color);
 }
 .contenedor{
     width: 100%;

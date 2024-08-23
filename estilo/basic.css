@@ -177,7 +177,6 @@ header label{
 }
 .iniciarsesion{
     padding: 10px 20px;
-    margin-top: 10px;
 
     border-radius: 4px;
 
@@ -193,14 +192,16 @@ header label{
 }
 
 .account-button{
-    background-color: var(--principal-color);
-    padding: 8px;
-    color: white;
+
+    padding: 6px;
+    color: var(--font-color);
     border-radius: 6px;
     margin-right: 3px;
+    margin-top: 3px;
 }
 .cart-button{
-    margin: 8px 6px 0 0;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 /* ---------------------------- NAVIGATION ---------------------------- */
@@ -229,6 +230,9 @@ aside ul{
     list-style: none;
     display: flex;
     margin-top: 4px;
+}
+aside ul li a{
+    color: var(--font-color);
 }
 
 aside nav span{
@@ -262,6 +266,9 @@ aside nav span{
 }
 
 /* ---------------------------- MAIN ---------------------------- */
+form button{
+    border: none;
+}
 main{
     margin-top: 80px;
     text-align: center;
@@ -425,6 +432,9 @@ main section{
     margin-bottom: -40px;
 }
 
+.vermasdefutbol{
+    border: none;
+}
 /* ---------------------------- FOOTER ---------------------------- */
 
 footer {
